@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
+
+
+p {
+    font-family: 'Brygada 1918', serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+header{
+    background-color: #A9A9A9;
+}
+main {
+    background-color: #B22222;
+}
+nav li {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.first_picture {
+    width: 50%;
+}
+.second_picture {
+    width: 30%;
+}
+
+.image_caption {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+
